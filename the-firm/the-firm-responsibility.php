@@ -9,7 +9,7 @@
 		<title>Pollen Street</title>
 		<meta name="description" content="xxxx" />
 		<meta name="keywords" content="Keywords" />
-		<link rel="stylesheet" media="all" href="/css/style.css" />
+		<link rel="stylesheet" media="all" href="/pollen-steet/css/style.css" />
     
 	    <!-- remove the no-js -->
 	    <script>(function(H){H.className=H.className.replace(/\bnojs\b/,'js')})(document.documentElement)</script>
@@ -23,20 +23,20 @@
 			<div>
 				<nav class="d-nav">
 					<ul class="d-nav d-nav__list">
-						<li class="d-nav__item"><a href="/">Home</a></li>
-						<li class="d-nav__item d-nav__item--active"><a href="/the-firm">The Firm</a></li>
-						<li class="d-nav__item"><a href="/private-equity">Private Equity</a></li>
-						<li class="d-nav__item"><a href="/credit">Credit</a></li>
-						<li class="d-nav__item"><a href="/people">People</a></li>
-						<li class="d-nav__item"><a href="/portfolio">Portfolio</a></li>
-						<li class="d-nav__item"><a href="/news">News</a></li>
-						<li class="d-nav__item"><a href="/contact">Contact</a></li>
-						<li class="d-nav__item"><a href="/login">Login</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/">Home</a></li>
+						<li class="d-nav__item d-nav__item--active"><a href="/pollen-steet/the-firm">The Firm</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/private-equity">Private Equity</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/credit">Credit</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/people">People</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/portfolio">Portfolio</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/news">News</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/contact">Contact</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/login">Login</a></li>
 					</ul>
 				</nav>
 			</div>
 			<button class="burger-menu__open-button">
-				<img src="/assets/img/burger-menu.svg" alt="" />
+				<img src="/pollen-steet/assets/img/burger-menu.svg" alt="" />
 			</button>
 
 	    </header>
@@ -45,8 +45,8 @@
 		<!-- Intro -->
 		<section id="the-firm-responsibility-intro" class="the-firm-responsibility-intro">
 			<div class="intro">
-				<a href="/">
-					<img class="intro__logo" src="/assets/img/pollen-street-logo.svg" alt="" />
+				<a href="/pollen-steet/">
+					<img class="intro__logo" src="/pollen-steet/assets/img/pollen-street-logo.svg" alt="" />
 				</a>
 				<div class="intro__header">
 					<h1>For planet and people Investing with honesty, integrity, fairness and respect</h1>
@@ -58,7 +58,7 @@
 		<section id="the-firm-responsibility-a" class="section">
 			<div class="the-firm-responsibility-a">
 				<div class="the-firm-responsibility-a__logo">
-					<img src="/assets/img/pollen-street-logo-no-text.svg" alt="" />
+					<img src="/pollen-steet/assets/img/pollen-street-logo-no-text.svg" alt="" />
 				</div>
 				<div class="the-firm-responsibility-a__body">
 					<h1>The Pollen Street Capital ESG policy</h1>
@@ -79,7 +79,7 @@
 					<p>[PSC is a signatory of the Principles for Responsible Investment (PRI). It is committed to implementing its Principles with a view to aligning its investment management and advisory activities to the interests of wider stakeholders.]</p>
 				</div>
 				<div class="the-firm-responsibility-a__image">
-					<img src="/assets/img/the-firm-responsibility-a.jpg" alt="" />
+					<img src="/pollen-steet/assets/img/the-firm-responsibility-a.jpg" alt="" />
 				</div>
 			</div>
 		</section>
@@ -104,7 +104,7 @@
 					</ul>
 				</div>
 				<div class="the-firm-responsibility-b__image">
-					<img src="/assets/img/the-firm-responsibility-b.jpg" alt="" />
+					<img src="/pollen-steet/assets/img/the-firm-responsibility-b.jpg" alt="" />
 				</div>
 			</div>
 		</section>
@@ -125,7 +125,7 @@
 					</ul>
 				</div>
 				<div class="the-firm-responsibility-c__image">
-					<img src="/assets/img/the-firm-responsibility-c.jpg" alt="" />
+					<img src="/pollen-steet/assets/img/the-firm-responsibility-c.jpg" alt="" />
 				</div>
 			</div>
 		</section>
@@ -142,7 +142,7 @@
 					</ul>
 				</div>
 				<div class="the-firm-responsibility-d__image">
-					<img src="/assets/img/the-firm-responsibility-d.jpg" alt="" />
+					<img src="/pollen-steet/assets/img/the-firm-responsibility-d.jpg" alt="" />
 				</div>
 			</div>
 		</section>
@@ -165,23 +165,23 @@
 					<p>PSC use governance structures that provide appropriate levels of oversight in the areas of audit, risk management, allocation and potential conflicts of interest. It implements compensation and other policies that align the interests of owners and management.</p>
 				</div>
 				<div class="the-firm-responsibility-e__image">
-					<img src="/assets/img/the-firm-responsibility-d.jpg" alt="" />
+					<img src="/pollen-steet/assets/img/the-firm-responsibility-d.jpg" alt="" />
 				</div>
 			</div>
 		</section>
 
 		<div class="the-firm__pages">
-			<a href="/login">
+			<a href="/pollen-steet/login">
 				<p class="the-firm__link">Funds</p>
 			</a>
 			<a href="the-firm-responsibility.php">
 				<p class="the-firm__link--active">Responsibility</p>
 			</a>
-			<img src="/assets/img/divider-1.svg" alt="" />
+			<img src="/pollen-steet/assets/img/divider-1.svg" alt="" />
 			<a href="the-firm-risk-and-governance.php">
 				<p class="the-firm__link">Risk And Governance</p>
 			</a>
-			<img src="/assets/img/divider.svg" alt="" />
+			<img src="/pollen-steet/assets/img/divider.svg" alt="" />
 			<a href="the-firm-pillar-iii.php">
 				<p class="the-firm__link">Pillar III</p>
 			</a>
@@ -190,26 +190,26 @@
 		<footer class="footer" id="footer">
 			<div class="footer__container">
 				<div class="footer__row">
-					<img class="footer__footer-logo" src="/assets/img/pollen-street-logo-mixed.svg" alt="" />
+					<img class="footer__footer-logo" src="/pollen-steet/assets/img/pollen-street-logo-mixed.svg" alt="" />
 					<p>Pollen Street Capital<br />8 Hanover Street<br />London W1S 1YQ</p>
 				</div>
 				<hr />
 				<nav>
 					<ul class="footer__footer-nav">
-						<li><a href="/">Home</a></li>
-						<li class="footer__footer-nav--active"><a href="/the-firm">The Firm</a></li>
-						<li><a href="/private-equity">Private Equity</a></li>
-						<li><a href="/credit">Credit</a></li>
-						<li><a href="/people">People</a></li>
-						<li><a href="/portfolio">Portfolio</a></li>
-						<li><a href="/news">News</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="/login">Login</a></li>
-						<li><a href="/governance-and-statutory-information">Governance &amp; Statutory Information</a></li>
+						<li><a href="/pollen-steet/">Home</a></li>
+						<li class="footer__footer-nav--active"><a href="/pollen-steet/the-firm">The Firm</a></li>
+						<li><a href="/pollen-steet/private-equity">Private Equity</a></li>
+						<li><a href="/pollen-steet/credit">Credit</a></li>
+						<li><a href="/pollen-steet/people">People</a></li>
+						<li><a href="/pollen-steet/portfolio">Portfolio</a></li>
+						<li><a href="/pollen-steet/news">News</a></li>
+						<li><a href="/pollen-steet/contact">Contact</a></li>
+						<li><a href="/pollen-steet/login">Login</a></li>
+						<li><a href="/pollen-steet/governance-and-statutory-information">Governance &amp; Statutory Information</a></li>
 					</ul>
 				</nav>
 				<hr />
-				<a href="/governance-and-statutory-information">
+				<a href="/pollen-steet/governance-and-statutory-information">
 					<p class="footer__governance-and-statutory-information"><strong>Governance &amp; Statutory Information</strong></p>
 				</a>
 				<p class="footer__disclaimer">&copy; <span id="date"></span> Pollen Street Capital. All Rights Reserved</p>
@@ -219,26 +219,26 @@
 		<div class="closed burger-menu" id="burger-menu">
 			<div class="burger-menu__container">
 				<div class="js-anim-single burger-menu__close-button"> 
-					<img src="/assets/img/burger-menu-close-white.svg" alt="" />
+					<img src="/pollen-steet/assets/img/burger-menu-close-white.svg" alt="" />
 				</div>
 				<nav>
-					<img class="burger-menu__logo" src="/assets/img/pollen-street-logo-mixed.svg" alt="" />
+					<img class="burger-menu__logo" src="/pollen-steet/assets/img/pollen-street-logo-mixed.svg" alt="" />
 					<ul>
-						<li><a href="/">Home</a></li>
-						<li class="nav-active"><a href="/the-firm">The Firm</a></li>
-						<li><a href="/private-equity">Private Equity</a></li>
-						<li><a href="/credit">Credit</a></li>
-						<li><a href="/people">People</a></li>
-						<li><a href="/portfolio">Portfolio</a></li>
-						<li><a href="/news">News</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="/login">Login</a></li>
+						<li><a href="/pollen-steet/">Home</a></li>
+						<li class="nav-active"><a href="/pollen-steet/the-firm">The Firm</a></li>
+						<li><a href="/pollen-steet/private-equity">Private Equity</a></li>
+						<li><a href="/pollen-steet/credit">Credit</a></li>
+						<li><a href="/pollen-steet/people">People</a></li>
+						<li><a href="/pollen-steet/portfolio">Portfolio</a></li>
+						<li><a href="/pollen-steet/news">News</a></li>
+						<li><a href="/pollen-steet/contact">Contact</a></li>
+						<li><a href="/pollen-steet/login">Login</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="/js/main.js"></script>
+		<script src="/pollen-steet/js/main.js"></script>
 	</body>
 
 </html>

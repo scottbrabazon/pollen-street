@@ -9,7 +9,7 @@
 		<title>Pollen Street</title>
 		<meta name="description" content="xxxx" />
 		<meta name="keywords" content="Keywords" />
-		<link rel="stylesheet" media="all" href="/css/style.css" />
+		<link rel="stylesheet" media="all" href="/pollen-steet/css/style.css" />
     
 	    <!-- remove the no-js -->
 	    <script>(function(H){H.className=H.className.replace(/\bnojs\b/,'js')})(document.documentElement)</script>
@@ -23,20 +23,20 @@
 			<div>
 				<nav class="d-nav">
 					<ul class="d-nav d-nav__list">
-						<li class="d-nav__item"><a href="/">Home</a></li>
-						<li class="d-nav__item"><a href="/the-firm">The Firm</a></li>
-						<li class="d-nav__item d-nav__item--active"><a href="/private-equity">Private Equity</a></li>
-						<li class="d-nav__item"><a href="/credit">Credit</a></li>
-						<li class="d-nav__item"><a href="/people">People</a></li>
-						<li class="d-nav__item"><a href="/portfolio">Portfolio</a></li>
-						<li class="d-nav__item"><a href="/news">News</a></li>
-						<li class="d-nav__item"><a href="/contact">Contact</a></li>
-						<li class="d-nav__item"><a href="/login">Login</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/">Home</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/the-firm">The Firm</a></li>
+						<li class="d-nav__item d-nav__item--active"><a href="/pollen-steet/private-equity">Private Equity</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/credit">Credit</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/people">People</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/portfolio">Portfolio</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/news">News</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/contact">Contact</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/login">Login</a></li>
 					</ul>
 				</nav>
 			</div>
 			<button class="burger-menu__open-button">
-				<img src="/assets/img/burger-menu.svg" alt="" />
+				<img src="/pollen-steet/assets/img/burger-menu.svg" alt="" />
 			</button>
 
 	    </header>
@@ -45,8 +45,8 @@
 		<!-- Intro -->
 		<section id="private-equity-intro" class="private-equity-intro">
 			<div class="intro">
-				<a href="/">
-					<img class="intro__logo" src="/assets/img/pollen-street-logo.svg" alt="" />
+				<a href="/pollen-steet/">
+					<img class="intro__logo" src="/pollen-steet/assets/img/pollen-street-logo.svg" alt="" />
 				</a>
 				<div class="intro__header">
 					<h1>We build profitable, market-leading businesses</h1>
@@ -58,7 +58,7 @@
 		<section id="private-equity" class="section">
 			<div class="private-equity-a">
 				<div class="private-equity-a__logo">
-					<img src="/assets/img/pollen-street-logo-no-text.svg" alt="" />
+					<img src="/pollen-steet/assets/img/pollen-street-logo-no-text.svg" alt="" />
 				</div>
 				<div class="private-equity-a__body">
 					<p>Pollen Street Capital strives to deliver consistent and superior returns for investors and partners. On average, the businesses in which we invest have enjoyed 3x profit growth while in our portfolio.</p>
@@ -80,7 +80,7 @@
 					</p>
 				</div>
 				<div class="private-equity-a__image">
-					<img src="/assets/img/private-equity-a.jpg" alt="" />
+					<img src="/pollen-steet/assets/img/private-equity-a.jpg" alt="" />
 				</div>
 			</div>
 		</section>
@@ -93,19 +93,19 @@
 				</div>
 				<div class="portfolio-selector__image">
 					<div class="portfolio-selector__client portfolio-selector__client--active" data-quote-id="pe-client-1">
-						<img src="/assets/img/zorin.png" alt="" />
+						<img src="/pollen-steet/assets/img/zorin.png" alt="" />
 					</div>
 					<div class="portfolio-selector__client" data-quote-id="pe-client-2">
-						<img src="/assets/img/capital-flow.png" alt="" />
+						<img src="/pollen-steet/assets/img/capital-flow.png" alt="" />
 					</div>
 					<div class="portfolio-selector__client" data-quote-id="pe-client-3">
-						<img src="/assets/img/shawbrook.png" alt="" />
+						<img src="/pollen-steet/assets/img/shawbrook.png" alt="" />
 					</div>
 					<div class="portfolio-selector__client" data-quote-id="pe-client-4">
-						<img src="/assets/img/zopa.png" alt="" />
+						<img src="/pollen-steet/assets/img/zopa.png" alt="" />
 					</div>
 					<div class="portfolio-selector__client" data-quote-id="pe-client-5">
-						<img src="/assets/img/empty.png" alt="" />
+						<img src="/pollen-steet/assets/img/empty.png" alt="" />
 					</div>
 				</div>
 				<div class="portfolio-selector__quote portfolio-selector__quote--active" id="pe-client-1">
@@ -136,26 +136,26 @@
 		<footer class="footer" id="footer">
 			<div class="footer__container">
 				<div class="footer__row">
-					<img class="footer__footer-logo" src="/assets/img/pollen-street-logo-mixed.svg" alt="" />
+					<img class="footer__footer-logo" src="/pollen-steet/assets/img/pollen-street-logo-mixed.svg" alt="" />
 					<p>Pollen Street Capital<br />8 Hanover Street<br />London W1S 1YQ</p>
 				</div>
 				<hr />
 				<nav>
 					<ul class="footer__footer-nav">
-						<li><a href="/">Home</a></li>
-						<li><a href="/the-firm">The Firm</a></li>
-						<li class="footer__footer-nav--active"><a href="/private-equity">Private Equity</a></li>
-						<li><a href="/credit">Credit</a></li>
-						<li><a href="/people">People</a></li>
-						<li><a href="/portfolio">Portfolio</a></li>
-						<li><a href="/news">News</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="/login">Login</a></li>
-						<li><a href="/governance-and-statutory-information">Governance &amp; Statutory Information</a></li>
+						<li><a href="/pollen-steet/">Home</a></li>
+						<li><a href="/pollen-steet/the-firm">The Firm</a></li>
+						<li class="footer__footer-nav--active"><a href="/pollen-steet/private-equity">Private Equity</a></li>
+						<li><a href="/pollen-steet/credit">Credit</a></li>
+						<li><a href="/pollen-steet/people">People</a></li>
+						<li><a href="/pollen-steet/portfolio">Portfolio</a></li>
+						<li><a href="/pollen-steet/news">News</a></li>
+						<li><a href="/pollen-steet/contact">Contact</a></li>
+						<li><a href="/pollen-steet/login">Login</a></li>
+						<li><a href="/pollen-steet/governance-and-statutory-information">Governance &amp; Statutory Information</a></li>
 					</ul>
 				</nav>
 				<hr />
-				<a href="/governance-and-statutory-information">
+				<a href="/pollen-steet/governance-and-statutory-information">
 					<p class="footer__governance-and-statutory-information"><strong>Governance &amp; Statutory Information</strong></p>
 				</a>
 				<p class="footer__disclaimer">&copy; <span id="date"></span> Pollen Street Capital. All Rights Reserved</p>
@@ -165,26 +165,26 @@
 		<div class="closed burger-menu" id="burger-menu">
 			<div class="burger-menu__container">
 				<div class="js-anim-single burger-menu__close-button"> 
-					<img src="/assets/img/burger-menu-close-white.svg" alt="" />
+					<img src="/pollen-steet/assets/img/burger-menu-close-white.svg" alt="" />
 				</div>
 				<nav>
-					<img class="burger-menu__logo" src="/assets/img/pollen-street-logo-mixed.svg" alt="" />
+					<img class="burger-menu__logo" src="/pollen-steet/assets/img/pollen-street-logo-mixed.svg" alt="" />
 					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/the-firm">The Firm</a></li>
-						<li class="nav-active"><a href="/private-equity">Private Equity</a></li>
-						<li><a href="/credit">Credit</a></li>
-						<li><a href="/people">People</a></li>
-						<li><a href="/portfolio">Portfolio</a></li>
-						<li><a href="/news">News</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="/login">Login</a></li>
+						<li><a href="/pollen-steet/">Home</a></li>
+						<li><a href="/pollen-steet/the-firm">The Firm</a></li>
+						<li class="nav-active"><a href="/pollen-steet/private-equity">Private Equity</a></li>
+						<li><a href="/pollen-steet/credit">Credit</a></li>
+						<li><a href="/pollen-steet/people">People</a></li>
+						<li><a href="/pollen-steet/portfolio">Portfolio</a></li>
+						<li><a href="/pollen-steet/news">News</a></li>
+						<li><a href="/pollen-steet/contact">Contact</a></li>
+						<li><a href="/pollen-steet/login">Login</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="/js/main.js"></script>
+		<script src="/pollen-steet/js/main.js"></script>
 	</body>
 
 </html>

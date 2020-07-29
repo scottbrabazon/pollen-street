@@ -12,8 +12,8 @@
     
     <!-- remove the no-js -->
     <script>(function(H){H.className=H.className.replace(/\bnojs\b/,'js')})(document.documentElement)</script>
-	    <link rel="stylesheet" media="all" href="/vendor/featherlight/featherlight.min.css" />
-	    <link rel="stylesheet" media="all" href="/css/style.css" />
+	    <link rel="stylesheet" media="all" href="/pollen-steet/vendor/featherlight/featherlight.min.css" />
+	    <link rel="stylesheet" media="all" href="/pollen-steet/css/style.css" />
     
 	</head>
 
@@ -24,20 +24,20 @@
 			<div>
 				<nav class="d-nav">
 					<ul class="d-nav d-nav__list">
-						<li class="d-nav__item"><a href="/">Home</a></li>
-						<li class="d-nav__item"><a href="/the-firm">The Firm</a></li>
-						<li class="d-nav__item"><a href="/private-equity">Private Equity</a></li>
-						<li class="d-nav__item"><a href="/credit">Credit</a></li>
-						<li class="d-nav__item d-nav__item--active"><a href="/people">People</a></li>
-						<li class="d-nav__item"><a href="/portfolio">Portfolio</a></li>
-						<li class="d-nav__item"><a href="/news">News</a></li>
-						<li class="d-nav__item"><a href="/contact">Contact</a></li>
-						<li class="d-nav__item"><a href="/login">Login</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/">Home</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/the-firm">The Firm</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/private-equity">Private Equity</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/credit">Credit</a></li>
+						<li class="d-nav__item d-nav__item--active"><a href="/pollen-steet/people">People</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/portfolio">Portfolio</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/news">News</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/contact">Contact</a></li>
+						<li class="d-nav__item"><a href="/pollen-steet/login">Login</a></li>
 					</ul>
 				</nav>
 			</div>
 			<button class="burger-menu__open-button">
-				<img src="/assets/img/burger-menu.svg" alt="" />
+				<img src="/pollen-steet/assets/img/burger-menu.svg" alt="" />
 			</button>
 	    </header>
 	    <!-- End Navigation -->
@@ -45,8 +45,8 @@
 		<!-- Intro -->
 		<section id="people-intro" class="people-intro">
 			<div class="intro">
-				<a href="/">
-					<img class="intro__logo" src="/assets/img/pollen-street-logo.svg" alt="" />
+				<a href="/pollen-steet/">
+					<img class="intro__logo" src="/pollen-steet/assets/img/pollen-street-logo.svg" alt="" />
 				</a>
 				<div class="intro__header">
 					<h1>An innovative, enthusiastic team with wide experience</h1>
@@ -58,7 +58,7 @@
 		<section id="people" class="section">
 			<div class="people">
 				<div class="people__logo">
-					<img src="/assets/img/pollen-street-logo-no-text.svg" alt="" />
+					<img src="/pollen-steet/assets/img/pollen-street-logo-no-text.svg" alt="" />
 				</div>
 				<div class="people__body">
 					<div class="dropdown">
@@ -67,7 +67,7 @@
 								<li>
 									<!-- Team member -->
 									<div class="people__panel">
-										<img class="staff-image" src="/assets/img/LindseyMcMurray_bw.png" onmouseover="$(this).attr('src','/assets/img/LindseyMcMurray_col.png')" onmouseout="this.src='/assets/img/LindseyMcMurray_bw.png'"  alt="" data-featherlight="#person1" />
+										<img class="staff-image" src="/pollen-steet/assets/img/LindseyMcMurray_bw.png" onmouseover="$(this).attr('src','/assets/img/LindseyMcMurray_col.png')" onmouseout="this.src='/assets/img/LindseyMcMurray_bw.png'"  alt="" data-featherlight="#person1" />
 										<div>
 											<p><strong>Lindsey McMurray</strong><br />Managing Partner</p>
 											<button class="secondary-button open-profile" data-featherlight="#person1"><span>Read Biography</span><hr /></button>
@@ -77,10 +77,10 @@
 									<div class="closed people__window" id="person1">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
-												<img class="staff-image" src="/assets/img/LindseyMcMurray_col.png" alt="" />
+												<img class="staff-image" src="/pollen-steet/assets/img/LindseyMcMurray_col.png" alt="" />
 											</div>
 											<div class="people-profile__body">
 												<h1>Lindsey McMurray</h1>
@@ -106,7 +106,7 @@
 									<div class="closed people__window" id="person2">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -134,7 +134,7 @@
 									<div class="closed people__window" id="person3">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -162,7 +162,7 @@
 									<div class="closed people__window" id="person4">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -190,7 +190,7 @@
 									<div class="closed people__window" id="person5">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -218,7 +218,7 @@
 									<div class="closed people__window" id="person6">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -245,7 +245,7 @@
 									<div class="closed people__window" id="person7">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -274,7 +274,7 @@
 									<div class="closed people__window" id="person8">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -301,7 +301,7 @@
 									<div class="closed people__window" id="person9">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -330,7 +330,7 @@
 									<div class="closed people__window" id="person10">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -358,7 +358,7 @@
 									<div class="closed people__window" id="person11">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -384,7 +384,7 @@
 									<div class="closed people__window" id="person12">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -412,7 +412,7 @@
 									<div class="closed people__window" id="person13">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -439,7 +439,7 @@
 									<div class="closed people-window" id="person14">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -467,7 +467,7 @@
 									<div class="closed people__window" id="person15">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -503,7 +503,7 @@
 									<div class="closed people__window" id="person16">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -531,7 +531,7 @@
 									<div class="closed people__window" id="person17">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -557,7 +557,7 @@
 									<div class="closed people__window" id="person18">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -583,7 +583,7 @@
 									<div class="closed people__window" id="person19">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -611,7 +611,7 @@
 									<div class="closed people__window" id="person20">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -640,7 +640,7 @@
 									<div class="closed people__window" id="person21">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -668,7 +668,7 @@
 									<div class="closed people__window" id="person22">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -695,7 +695,7 @@
 									<div class="closed people__window" id="person23">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -721,7 +721,7 @@
 									<div class="closed people__window" id="person24">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -756,7 +756,7 @@
 									<div class="closed people__window" id="person25">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -783,7 +783,7 @@
 									<div class="closed people__window" id="person26">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -817,7 +817,7 @@
 									<div class="closed people__window" id="person28">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -844,7 +844,7 @@
 									<div class="closed people__window" id="person29">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -871,7 +871,7 @@
 									<div class="closed people__window" id="person30">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -901,7 +901,7 @@
 									<div class="closed people__window" id="person31">
 										<div class="people-profile">
 											<div class="people-profile__close">
-												<img src="/assets/img/burger-menu-close-grey.svg" alt="" />
+												<img src="/pollen-steet/assets/img/burger-menu-close-grey.svg" alt="" />
 											</div>
 											<div class="people-profile__image">
 												<img class="staff-image" src="http://via.placeholder.com/850x1283" alt="" />
@@ -927,26 +927,26 @@
 		<footer class="footer" id="footer">
 			<div class="footer__container">
 				<div class="footer__row">
-					<img class="footer__footer-logo" src="/assets/img/pollen-street-logo-mixed.svg" alt="" />
+					<img class="footer__footer-logo" src="/pollen-steet/assets/img/pollen-street-logo-mixed.svg" alt="" />
 					<p>Pollen Street Capital<br />8 Hanover Street<br />London W1S 1YQ</p>
 				</div>
 				<hr />
 				<nav>
 					<ul class="footer__footer-nav">
-						<li><a href="/">Home</a></li>
-						<li><a href="/the-firm">The Firm</a></li>
-						<li><a href="/private-equity">Private Equity</a></li>
-						<li><a href="/credit">Credit</a></li>
-						<li class="footer__footer-nav--active"><a href="/people">People</a></li>
-						<li><a href="/portfolio">Portfolio</a></li>
-						<li><a href="/news">News</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="/login">Login</a></li>
-						<li><a href="/governance-and-statutory-information">Governance &amp; Statutory Information</a></li>
+						<li><a href="/pollen-steet/">Home</a></li>
+						<li><a href="/pollen-steet/the-firm">The Firm</a></li>
+						<li><a href="/pollen-steet/private-equity">Private Equity</a></li>
+						<li><a href="/pollen-steet/credit">Credit</a></li>
+						<li class="footer__footer-nav--active"><a href="/pollen-steet/people">People</a></li>
+						<li><a href="/pollen-steet/portfolio">Portfolio</a></li>
+						<li><a href="/pollen-steet/news">News</a></li>
+						<li><a href="/pollen-steet/contact">Contact</a></li>
+						<li><a href="/pollen-steet/login">Login</a></li>
+						<li><a href="/pollen-steet/governance-and-statutory-information">Governance &amp; Statutory Information</a></li>
 					</ul>
 				</nav>
 				<hr />
-				<a href="/governance-and-statutory-information">
+				<a href="/pollen-steet/governance-and-statutory-information">
 					<p class="footer__governance-and-statutory-information"><strong>Governance &amp; Statutory Information</strong></p>
 				</a>
 				<p class="footer__disclaimer">&copy; <span id="date"></span> Pollen Street Capital. All Rights Reserved</p>
@@ -956,28 +956,28 @@
 		<div class="closed burger-menu" id="burger-menu">
 			<div class="burger-menu__container">
 				<div class="js-anim-single burger-menu__close-button"> 
-					<img src="/assets/img/burger-menu-close-white.svg" alt="" />
+					<img src="/pollen-steet/assets/img/burger-menu-close-white.svg" alt="" />
 				</div>
 				<nav>
-					<img class="burger-menu__logo" src="/assets/img/pollen-street-logo-mixed.svg" alt="" />
+					<img class="burger-menu__logo" src="/pollen-steet/assets/img/pollen-street-logo-mixed.svg" alt="" />
 					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/the-firm">The Firm</a></li>
-						<li><a href="/private-equity">Private Equity</a></li>
-						<li><a href="/credit">Credit</a></li>
-						<li class="nav-active"><a href="/people">People</a></li>
-						<li><a href="/portfolio">Portfolio</a></li>
-						<li><a href="/news">News</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="/login">Login</a></li>
+						<li><a href="/pollen-steet/">Home</a></li>
+						<li><a href="/pollen-steet/the-firm">The Firm</a></li>
+						<li><a href="/pollen-steet/private-equity">Private Equity</a></li>
+						<li><a href="/pollen-steet/credit">Credit</a></li>
+						<li class="nav-active"><a href="/pollen-steet/people">People</a></li>
+						<li><a href="/pollen-steet/portfolio">Portfolio</a></li>
+						<li><a href="/pollen-steet/news">News</a></li>
+						<li><a href="/pollen-steet/contact">Contact</a></li>
+						<li><a href="/pollen-steet/login">Login</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	    <script src="/vendor/featherlight/featherlight.min.js"></script>
-		<script src="/js/main.js"></script>
+	    <script src="/pollen-steet/vendor/featherlight/featherlight.min.js"></script>
+		<script src="/pollen-steet/js/main.js"></script>
 
 	</body>
 
