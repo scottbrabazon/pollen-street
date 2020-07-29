@@ -1,0 +1,49 @@
+.the-firm-pillar-iii-a {
+    padding: $section-padding__mobile;
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__body {
+        h3:first-of-type {
+            margin-top: 0;
+        }
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .the-firm-pillar-iii-a {
+        padding: $section-padding__desktop;
+        &__logo {
+            width: 5%;
+            margin: 0 7.5%;
+            float: left;
+        }
+        &__body {
+            margin-left: 20%;
+            width: 70%;
+            margin-top: em(48px);
+        }
+    }
+
+    @supports (display: grid) {
+
+        .the-firm-pillar-iii-a {
+            @include grid-layout(em(100px) auto auto em(100px) auto);
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__body {
+                grid-column: 4 / 12;
+                grid-row: 2 / 4;
+                width: auto;
+                margin: 0;
+            }
+        }
+    }
+}

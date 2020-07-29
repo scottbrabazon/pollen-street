@@ -1,0 +1,293 @@
+.the-firm-responsibility-a {
+    padding: 8vw 4vw 0 4vw;
+    ul {
+        margin-bottom: 0;
+    }
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__image {
+        background-color: red;
+        display: none;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+    }
+}
+
+.the-firm-responsibility-b {
+    padding: 0 4vw 4vw 4vw;
+    ul {
+        margin-top: 0;
+    }
+    &__logo {
+        max-width: em(60px);
+        text-align: right;
+    }
+    &__image {
+        background-color: red;
+        overflow: hidden;
+        display: none;
+    }
+    // &__image img {
+    //     height: 100%;
+    // }
+}
+
+.the-firm-responsibility-c {
+    padding: 4vw 4vw 0 4vw;
+    ul {
+        margin-bottom: 0;
+    }
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__image {
+        background-color: red;
+        display: none;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+    }
+}
+
+.the-firm-responsibility-d {
+    padding: 0 4vw 8vw 4vw;
+    ul {
+        margin-top: 0;
+    }
+    &__logo {
+        max-width: em(60px);
+        text-align: right;
+    }
+    &__image {
+        background-color: red;
+        overflow: hidden;
+        display: none;
+    }
+    // &__image img {
+    //     height: 100%;
+    // }
+}
+
+.the-firm-responsibility-e {
+    padding: 0 4vw 4vw 4vw;
+    ul {
+        margin-bottom: 0;
+    }
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__image {
+        background-color: red;
+        display: none;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .the-firm-responsibility-a {
+        padding: $section-padding__desktop;
+        &__body {
+            width: 70%;
+            float: left;
+        }
+        &__image {
+            width: 25%;
+            float: right;
+            display: block;
+            overflow: hidden;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    @supports (display: grid) {
+
+        .the-firm-responsibility-a {
+            @include grid-layout(em(100px) auto auto em(50px));
+            &__logo {
+                width: auto;
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            &__body {
+                width: auto;
+                grid-column: 4 / 8;
+                grid-row: 2 / 4;
+            }
+            &__image {
+                width: auto;
+                grid-column: 10 / 13;
+                grid-row: 1 / 5;
+            }
+        }
+    }
+
+    .the-firm-responsibility-b {
+        padding: $section-padding__desktop;
+        &__body {
+            float: left;
+            width: 70%;
+        }
+        &__image {
+            float: right;
+            width: 25%;
+            display: block;
+            overflow: hidden;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    @supports (display: grid) {
+
+        .the-firm-responsibility-b {
+            @include grid-layout(em(50px) auto em(50px));
+            &__body {
+                width: auto;
+                grid-column: 7 / 11;
+                grid-row: 2 / 3;
+            }
+            &__image {
+                width: auto;
+                grid-column: 3 / 6;
+                grid-row: 1 / 4;
+            }
+        }
+    }
+
+    .the-firm-responsibility-c {
+        padding: $section-padding__desktop;
+        &__body {
+            width: 70%;
+            float: left;
+        }
+        &__image {
+            width: 25%;
+            float: right;
+            display: block;
+            overflow: hidden;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    @supports (display: grid) {
+
+        .the-firm-responsibility-c {
+            @include grid-layout(em(50px) auto auto em(50px));
+            &__logo {
+                width: auto;
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            &__body {
+                width: auto;
+                grid-column: 4 / 8;
+                grid-row: 2 / 4;
+            }
+            &__image {
+                width: auto;
+                grid-column: 10 / 13;
+                grid-row: 1 / 5;
+            }
+        }
+    }
+
+    .the-firm-responsibility-d {
+        padding: $section-padding__desktop;
+        &__body {
+            float: left;
+            width: 70%;
+        }
+        &__image {
+            float: right;
+            width: 25%;
+            display: block;
+            overflow: hidden;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    @supports (display: grid) {
+
+        .the-firm-responsibility-d {
+            @include grid-layout(em(50px) auto auto em(50px));
+            &__body {
+                width: auto;
+                grid-column: 7 / 11;
+                grid-row: 2 / 3;
+            }
+            &__image {
+                width: auto;
+                grid-column: 3 / 6;
+                grid-row: 1 / 5;
+            }
+        }
+    }
+
+    .the-firm-responsibility-e {
+        padding: $section-padding__desktop;
+        &__body {
+            width: 70%;
+            float: left;
+        }
+        &__image {
+            width: 25%;
+            float: right;
+            display: block;
+            overflow: hidden;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    @supports (display: grid) {
+
+        .the-firm-responsibility-e {
+            @include grid-layout(em(50px) auto auto em(50px) em(100px));
+            &__logo {
+                width: auto;
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            &__body {
+                width: auto;
+                grid-column: 4 / 8;
+                grid-row: 2 / 4;
+            }
+            &__image {
+                width: auto;
+                grid-column: 10 / 13;
+                grid-row: 1 / 5;
+            }
+        }
+    }
+}

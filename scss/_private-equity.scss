@@ -1,0 +1,71 @@
+.private-equity-a {
+    padding: 8vw 4vw 0 4vw;
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__image {
+        display: none;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .private-equity-a {
+        padding: $section-padding__desktop;
+        min-height: initial;
+        height: auto;
+        overflow-y: hidden;
+        &__logo {
+            float: left;
+            width: 5%;
+            margin: 0 7.5%;
+        }
+        &__body {
+            float: left;
+            width: 50%;
+            margin-top: em(48px);
+        }
+        &__image {
+            float: right;
+            width: 20%;
+            display: block;
+            margin-top: em(48px);
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                overflow: hidden;
+            }
+        }
+    }
+
+    @supports (display: grid) {
+
+        .private-equity-a {
+            @include grid-layout(em(100px) auto em(50px) em(50px));
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__body {
+                width: auto;
+                grid-column: 4 / 8;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__image {
+                width: auto;
+                grid-column: 10 / 13;
+                grid-row: 1 / 4;
+                width: auto;
+                margin: 0;
+            }
+        }
+    }
+}

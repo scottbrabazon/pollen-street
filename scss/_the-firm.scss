@@ -1,0 +1,173 @@
+.the-firm-a {
+    padding: 8vw 4vw 0 4vw;
+    ul {
+        margin-bottom: 0;
+    }
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__image {
+        display: none;
+        overflow: hidden;
+        img {
+            height: 100%
+        }
+    }
+}
+
+.the-firm-b {
+    padding: $section-padding__mobile;
+    &__image {
+        img {
+            margin: 4vh 0 0 0 ;
+        }
+    }
+}
+
+
+.the-firm {
+    &__pages {
+        background-color: $pollen-xx-light-grey;
+        img {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0; 
+            margin: 0;     
+        }
+    }
+    &__link--active {
+        background-color: $pollen-orange;
+        padding: em(40px) em(20px);
+        margin-bottom: 0;
+        text-align: center;
+        color: #fff;
+    }
+    &__link {
+        background-color: $pollen-xx-light-grey;
+        padding: em(50px) em(20px) em(30px) em(20px);
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .the-firm-a {
+        padding: $section-padding__desktop;
+        overflow: hidden;
+        &__logo {
+            text-align: right;
+            float: left;
+            width: 5%;
+            margin: 0 7.5%;
+        }
+        &__body {
+            width: 50%;
+            float: left;
+            margin-top: em(48px);
+        }
+        &__image {
+            width: 20%;
+            float: right;
+            display: block;
+            overflow: hidden;
+            margin-top: em(48px);
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    
+    @supports (display: grid) {
+
+        .the-firm-a {
+            @include grid-layout(em(100px) auto auto em(50px));
+            &__logo {
+                width: auto;
+                text-align: right;
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+
+            &__body {
+                width: auto;
+                grid-column: 4 / 8;
+                grid-row: 2 / 4;
+                margin-top: 0;
+            }
+
+            &__image {
+                width: auto;
+                grid-column: 10 / 13;
+                grid-row: 1 / 5;
+                margin-top: 0;
+            }
+
+        }
+    
+    }
+
+    .the-firm-b {
+        padding: $section-padding__desktop;
+        &__body {
+            float: right;
+            width: 40%;
+            margin-bottom: 10vh;
+            margin-right: 10%;
+            margin-top: em(48px);
+        }
+        &__image {
+            float: left;
+            width: 20%;
+            margin-left: 20%;
+            margin-top: em(48px);
+        }
+        &__image img {
+            margin: 0;
+            overflow: hidden;
+            width: 100%;
+        }
+    }
+
+    @supports (display: grid) {
+
+        .the-firm-b {
+            @include grid-layout(em(50px) auto em(100px) auto);
+            &__body {
+                width: auto;
+                grid-column: 7 / 11;
+                grid-row: 2 / 3;
+                margin-bottom: initial;
+                margin-top: 0;
+
+            }
+            &__image {
+                width: auto;
+                grid-column: 3 / 6;
+                grid-row: 2 / 3;
+                margin-top: 0;
+            }
+        }
+    }
+
+    .the-firm {
+        &__pages {
+            width: 70%;
+            margin: em(50px) auto 0 auto;
+        }
+    }
+
+    @supports (display: grid) {
+        .the-firm {
+            &__pages {
+                margin: 0 auto;
+            }
+        }
+    }
+}
+

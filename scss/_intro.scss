@@ -1,0 +1,85 @@
+// Mobile
+
+.intro {
+	min-height: 100vh;
+    height: auto;
+	padding: 0 4vw;
+	width: 100%;
+	overflow: hidden;
+	&__header {
+		h1 {
+			margin-top: 35vh;
+			color: $pollen-orange;
+			text-align: left;
+			font-size: 10vw;
+		    line-height: 12vw;;
+		}
+	}
+	&__logo {
+	    position: absolute;
+	    width: 10vw;
+	    min-width: em(120px);
+	    top: 2vh;
+	    left: 4vw;
+	    z-index: 200;
+	}
+}
+
+.hp-intro {@include header-panel("1499/intro-bg-mobile-homepage.jpg");}
+.contact-intro {@include header-panel("1497/intro-bg-mobile-contact.jpg");}
+.credit-intro {@include header-panel("1498/intro-bg-mobile-credit.jpg");}
+.login-intro {@include header-panel("1500/intro-bg-mobile-login.jpg");}
+.news-intro {@include header-panel("1501/intro-bg-mobile-news.jpg");}
+.people-intro {@include header-panel("1502/intro-bg-mobile-people.jpg");}
+.portfolio-intro {@include header-panel("1503/intro-bg-mobile-portfolio.jpg");}
+.private-equity-intro {@include header-panel("1504/intro-bg-mobile-private-equity.jpg");}
+.the-firm-intro {@include header-panel("1505/intro-bg-mobile-the-firm.jpg");}
+.the-firm-responsibility-intro {@include header-panel("1505/intro-bg-mobile-the-firm.jpg");}
+.the-firm-pillar-iii-intro {@include header-panel("1505/intro-bg-mobile-the-firm.jpg");}
+.the-firm-risk-and-governance-intro {@include header-panel("1505/intro-bg-mobile-the-firm.jpg");}
+
+
+@supports (display: flex) {
+
+	.intro {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	    &__header {
+			h1 {
+				margin-top: 10vh;
+			}
+		}
+	}
+
+}
+
+
+// Desktop
+
+@media screen and (min-width: 771px) {
+
+	.intro {
+		&__header {
+			h1 {
+				font-size: 5vw;
+			    line-height: 6vw;;
+			    padding-right: 30vw;
+			}
+		}
+	}
+
+	.hp-intro {@include header-panel("1495/intro-bg-homepage.jpg");}
+	.contact-intro {@include header-panel("1493/intro-bg-contact.jpg");}
+	.credit-intro {@include header-panel("1494/intro-bg-credit.jpg");}
+	.login-intro {@include header-panel("1496/intro-bg-login.jpg");}
+	.news-intro {@include header-panel("1506/intro-bg-news.jpg");}
+	.people-intro {@include header-panel("1507/intro-bg-people.jpg");}
+	.portfolio-intro {@include header-panel("1508/intro-bg-portfolio.jpg");}
+	.private-equity-intro {@include header-panel("1509/intro-bg-private-equity.jpg");}
+	.the-firm-intro {@include header-panel("1510/intro-bg-the-firm.jpg");}
+	.the-firm-responsibility-intro {@include header-panel("1510/intro-bg-the-firm.jpg");}
+	.the-firm-pillar-iii-intro {@include header-panel("1510/intro-bg-the-firm.jpg");}
+	.the-firm-risk-and-governance-intro {@include header-panel("1510/intro-bg-the-firm.jpg");}
+
+}

@@ -1,0 +1,135 @@
+.portfolio {
+    padding: $section-padding__mobile;
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__image {
+        margin-top: em(20px);
+        img {
+            width: 100%;
+        }
+    }
+    &__logo-grid {
+        margin-top: 4vh;
+        img {
+            width: 32%;
+            padding: 15px;
+        }
+    }
+    &__discription div {
+        display: none;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.portfolio .dropdown {
+    padding: em(20px) 0;
+}
+
+.portfolio .dropdown:first-of-type {
+    padding-top: 0;
+}
+
+.portfolio .dropdown > div > ul {
+    margin-top: em(20px);
+    padding-left: em(37px);
+}
+
+.portfolio .dropdown > div > ul > li {
+    width: 100%;
+}
+
+.selected {
+    h1:before {
+        content: url(/assets/img/profile-close.png);
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .portfolio {
+        padding: $section-padding__desktop;
+        height: auto;
+        &__logo {
+            width: 5%;
+            margin: 0 7.5%;
+            text-align: center;
+            display: block;
+            float: left;
+        }
+        &__body {
+            margin-top: em(48px);
+            width: 70%;
+            float: left;
+        }
+        &__discription {
+            display: flex;
+            div {
+                display: block;
+            }
+            h1 {
+                width: 70%;
+            }
+        }
+        &__item {
+            display: flex;
+            flex-direction: column;
+        }
+        &__content {
+            width: 100% !important;
+        }
+        &__logo-grid {
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 4vh;
+            img {
+                width: 19%;
+                padding: 15px;
+            }
+        }
+        &__client-logo {
+            float: right;
+            display: none;
+        }
+    }
+
+    @supports (display: grid) {
+
+        .portfolio {
+            @include grid-layout(4vw auto 4vw);
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__body {
+                grid-column: 4 / 11;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__logo-grid {
+                width: auto;
+                width: auto;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .portfolio {
+        &__logo-grid {
+            img {
+                padding: 30px;
+            }
+        }
+    }
+}

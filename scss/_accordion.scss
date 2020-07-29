@@ -1,0 +1,68 @@
+.accordion-trigger {
+    margin-bottom: 0;
+    text-indent: -37px;
+    padding-left: 37px;
+}
+.accordion-trigger:before {
+    content: url(/assets/img/profile-open.png);
+}
+.accordion-trigger:hover {
+    color: $pollen-dark-grey;
+}
+
+.dropdown {
+    padding: 0 0 28px 0;
+    overflow: hidden;
+    border-bottom: $pollen-x-light-grey 1px solid;
+}
+
+.dropdown > div {
+    background: #fff;
+    padding: 0;
+}
+
+.dropdown > div:hover {
+    background: #333;
+    cursor:pointer;
+}
+
+.dropdown > div .fa,
+.dropdown > div h4 {
+    padding:0 1em;
+    line-height:40px;
+}
+
+.dropdown > div.selected,
+.dropdown > div:hover {
+    background: #fff;
+    color: #000;
+}
+
+.dropdown > div > ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 37px;;
+    list-style: none;
+}
+
+.dropdown > div > ul > li {
+    padding: 0;
+    width: 47.5%;
+    float: left;
+}
+
+.dropdown > div > ul > li:nth-child(4n+5) {
+    clear: left;
+}
+
+.contents {
+    margin: 0 auto;
+    display: flex;  
+    li:nth-child(odd) {
+        margin: 30px 2.5% 0 0;
+    }
+    li:nth-child(even) {
+        margin: 30px 0 0 2.5%;
+    }
+}

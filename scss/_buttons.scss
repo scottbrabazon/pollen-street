@@ -1,0 +1,99 @@
+.scroll-down {
+    width: 60px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.primary-button {
+    font-family: 'Assistant', Arial, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    background-color: $pollen-dark-grey;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 7px 18px;
+    span {margin-right: 13px;}
+    hr {
+        height: 1px;
+        padding: 0;
+        width: 25px;
+        margin: 0;
+        background-color: #fff;
+    }
+}
+
+.primary-button:hover hr {
+    animation: buttonAni 0.8s linear 1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes buttonAni {
+    0% {
+        width: 0px;
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+    50% {
+        width: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    100% {
+        width: 0px;
+        margin-left: 0px;
+        margin-right: 25px;
+    }
+}
+
+.secondary-button {
+    font-family: 'Assistant', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+    color: $pollen-orange;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    span {
+        margin-right: 13px;
+    }
+    hr {
+        height: 1px;
+        padding: 0;
+        width: 25px;
+        margin: 0;
+        background-color: $pollen-orange;
+    }
+}
+
+.secondary-button:hover hr {
+    animation: buttonAni 0.8s linear 1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes buttonAni {
+    0% {
+        width: 0px;
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+    50% {
+        width: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    100% {
+        width: 0px;
+        margin-left: 0px;
+        margin-right: 25px;
+    }
+}

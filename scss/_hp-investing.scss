@@ -1,0 +1,66 @@
+.hp-investing {
+    padding: $section-padding__mobile;
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__image {
+        display: none;
+    }
+    &__button {
+        margin-top: 7vh;
+    }
+}
+
+@media screen and (min-width: 771px) {
+
+    .hp-investing {
+        padding: $section-padding__desktop;
+        &__image {
+            width: 20%;
+            float: right;
+            display: block;
+            overflow: hidden;
+            margin-top: em(48px);
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__logo {
+            text-align: right;
+            float: left;
+            width: 5%;
+            margin: 0 7.5%;
+        }
+        &__body {
+            margin-top: em(48px);
+            width: 50%;
+            float: left;
+        }
+    }
+
+    @supports (display: grid) {
+
+        .hp-investing {
+            @include grid-layout(em(100px) auto em(100px));
+            &__image {
+                width: auto;
+                grid-column: 10 / 13;
+                grid-row: 1 / 4;
+            }
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                width: auto;
+            }
+            &__body {
+                margin-top: 0;
+                width: auto;
+                grid-column: 4 / 8;
+                grid-row: 2 / 3;
+            }
+        }
+    }
+}

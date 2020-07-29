@@ -1,0 +1,163 @@
+.news {
+    padding: $section-padding__mobile;
+    margin-bottom: em(30px);
+    h1 {
+        margin-top: 0;
+    }
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__item {
+        border-bottom: $pollen-x-light-grey 1px solid;
+        padding-bottom: 28px;
+    }
+    &__date {
+        color: $pollen-orange;
+        margin-top: em(10px);
+        padding-left: 37px;
+    }
+    .secondary-button {
+        margin-left: auto;
+    }
+}
+
+.news .dropdown {
+    padding: em(30px) 0 em(40px) 0;
+}
+
+.news .dropdown:first-of-type {
+    padding-top: 0;
+}
+
+.news .dropdown > div > ul > li {
+    width: 100%;
+}
+
+.news .dropdown > div > ul {
+    list-style: none;
+}
+
+.selected {
+    h1:before {
+        content: url(/assets/img/profile-close.png);
+    }
+}
+
+.news.contents {
+    margin-left: em(37px);
+}
+
+.post {
+    padding: 4vw;
+    &__logo {
+        text-align: right;
+        max-width: em(60px);
+        margin-bottom: em(30px);
+    }
+    &__author {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: em(30px) 0;
+        p {
+            margin: 0 em(10px);
+        }
+    }
+    &__author-image {
+        border-radius: 50%;
+        width: em(80px);
+    }
+}
+
+.blog-image {
+    width: 100%;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .news {
+        padding: $section-padding__desktop;
+        height: auto;
+        &__logo {
+            text-align: center;
+            display: block;
+            width: 5%;
+            margin: 0 7.5%;
+            float: left;
+        }
+        &__body {
+            margin-top: em(48px);
+            width: 70%;
+            float: left;
+        }
+        &__item {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    @supports (display: grid) {
+
+        .news {
+            @include grid-layout(em(100px) auto em(100px));
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__body {
+                grid-column: 4 / 11;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__item {
+            }
+        }
+    }
+
+    .post {
+        min-height: 100vh;
+        height: auto;
+        &__logo {
+            text-align: center;
+            display: block;
+            width: 5%;
+            margin: 0 7.5%;
+            float: left;
+        }
+        &__body {
+            width: 70%;
+            margin: 0 auto;
+            float: left;
+            margin-top: em(48px);
+        }
+        .secondary-button {
+            margin-bottom: em(30px);
+        }
+    }
+
+    @supports (display: grid) {
+
+        .post {
+            @include grid-layout(10vw auto 4vw);
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__body {
+                grid-column: 4 / 11;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+        }
+    }
+}

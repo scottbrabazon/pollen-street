@@ -1,0 +1,96 @@
+.the-firm-risk-and-governance-a {
+    padding: $section-padding__mobile;
+    ul {
+        margin-bottom: 0;
+    }
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__image {
+        display: none;
+        background: $pollen-light-grey;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .the-firm-risk-and-governance-a {
+        padding: $section-padding__desktop;
+        margin-bottom: 10vh;
+        &__logo {
+            text-align: right;
+            width: 5%;
+            margin: 0 7.5%;
+            float: left;
+        }
+        &__body {
+            float: left;
+            width: 50%;
+            margin-top: em(48px);
+        }
+        &__diagram {
+            margin-top: 4vh;
+            float: left;
+            width: 50%;
+            margin-left: 20%;
+        }
+        &__diagram img {
+            width: 100%;
+        }
+        &__image {
+            float: right;
+            width: 25%;
+            display: block;
+            overflow: hidden;
+            margin-top: em(48px);
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__pages {
+        }
+    }
+
+    @supports (display: grid) {
+
+        .the-firm-risk-and-governance-a {
+            @include grid-layout(em(100px) 1fr auto em(100px) auto );
+            &__logo {
+                width: auto;
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            &__body {
+                width: auto;
+                grid-column: 4 / 8;
+                grid-row: 2 / 3;
+                margin-top: 0;
+            }
+            &__diagram {
+                width: auto;
+                grid-column: 4 / 9;
+                grid-row: 3 / 4;
+                margin-left: 0;
+            }
+            &__image {
+                width: auto;
+                grid-column: 10 / 13;
+                grid-row: 1 / 4;
+                margin-top: 0;
+            }
+            &__pages {
+                width: auto;
+                grid-column: 3 / 11;
+                grid-row: 5 / 6;
+            }
+        }
+    }
+}

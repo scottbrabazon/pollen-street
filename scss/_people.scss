@@ -1,0 +1,218 @@
+.people {
+    width: 100%;
+    padding: $section-padding__mobile;
+    &__logo {
+        text-align: right;
+        max-width: em(60px);
+    }
+    .selected {
+        h2:before {
+            content: url(/assets/img/profile-close.png);
+        }
+    }
+    .dropdown > div > ul > li:nth-child(2n+3) {
+        clear: left;
+    }
+}
+
+/* Person Profile */
+
+.people__window {
+    background-color: #fff;
+    z-index: 7000;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+}
+
+.people-profile {
+    padding: 4vw;
+    width: auto;
+    margin: auto;
+    &__image {
+        display: none;
+    }
+    &__close {
+        margin-left: auto;
+        width: 20vw;
+        max-width: em(90px);
+    }
+}
+
+.people__panel {
+    h3, p {
+        margin-top: 0.5vh;
+        margin-bottom: 0.5rem;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.featherlight-close-icon.featherlight-close {
+	display: none;
+	visibility: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+    .featherlight .featherlight-content {
+        margin-left: 0;
+        margin-right: 0;
+        max-height: 100%;
+        padding: 0;
+        border-bottom: 0;
+    }
+}
+
+
+@media screen and (min-width: 550px) {
+
+    .people {
+        .dropdown > div > ul > li {
+            width: 31.6666666%;
+        }
+        .contents {
+            li {
+                margin: 30px 2.5% 0 0;
+            }
+            li:nth-child(odd) {
+                margin: 30px 2.5% 0 0;
+            }
+            li:nth-child(even) {
+                margin: 30px 2.5% 0 0;
+            }
+            li:nth-child(3n) {
+                margin: 30px 0 0 0;
+            }
+        }
+        .dropdown > div > ul > li:nth-child(2n+3) {
+            clear: none;
+        }
+        .dropdown > div > ul > li:nth-child(3n+4) {
+            clear: left;
+        }
+    }
+}
+
+@media screen and (min-width: 771px) {
+
+    .people {
+        padding: $section-padding__desktop;
+        height: auto;
+        &__logo {
+            width: 5%;
+            float: left;
+            margin: 0 7.5%;
+            text-align: center;
+            display: block;
+        }
+        &__body {
+            margin-top: em(48px);
+            width: 60%;
+            float: left;
+        }
+        .dropdown > div > ul > li {
+            width: 23.125%;
+        }
+        .contents {
+            li {
+                margin: 30px 2.5% 0 0;
+            }
+            li:nth-child(3n) {
+                margin: 30px 2.5% 0 0;
+            }
+            li:nth-child(4n) {
+                margin: 30px 0 0 0;
+            }
+        }
+        .dropdown > div > ul > li:nth-child(2n+3) {
+            clear: none;
+        }
+        .dropdown > div > ul > li:nth-child(3n+4) {
+            clear: none;
+        }
+        .dropdown > div > ul > li:nth-child(4n+5) {
+            clear: left;
+        }
+    }
+    .people__window {
+        background-color: #fff;
+        position: fixed;
+        z-index: 7000;
+        width: 90vw;
+        height: 90vh;
+        top: 5vh;
+        left: 5vw;
+        margin: 0;
+    }
+    .people-profile {
+        &__image {
+            display: block;
+            overflow: hidden;
+            text-align: center;
+            width: 30%;
+            float: left;
+            img {
+                width: 100%;
+            }
+        }
+        &__body {
+            width: 60%;
+            float: right;
+        }
+        &__close {
+            float: right;
+            padding: em(10px);
+        }
+    }
+
+    @supports (display: grid) {
+
+        .people {
+            @include grid-layout(4vw auto 8vw);
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__body {
+                grid-column: 4 / 12;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__close {
+                grid-column: 12 / 13;
+                grid-row: 1 / 2;
+                width: auto;
+                margin: 0;
+            }
+        }
+        .people-profile {
+            @include grid-layout(em(30px) auto em(30px));
+            width: 100%;
+            height: 90vh;
+            &__image {
+                width: auto;
+                grid-column: 1 / 6;
+                grid-row: 1 / 4;
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: 50% top;
+                }
+            }
+            &__body {
+                width: auto;
+                grid-column: 7 / 12;
+                grid-row: 2 / 3;
+            }
+            &__close {
+                grid-column: 12 / 13;
+                grid-row: 1 / 2;
+            }
+        }
+    }
+}

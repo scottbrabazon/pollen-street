@@ -1,0 +1,51 @@
+// Font Stacks
+
+$font-url--quicksand		: 'https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700';
+$font-url--assistant		: 'https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800';
+
+$font-family--super-header	: 'Quicksand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--headline-1	: 'Quicksand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--headline-2	: 'Quicksand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--headline-3	: 'Quicksand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--headline-4	: 'Quicksand', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$font-family--body			: 'Assistant', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--body-sml		: 'Assistant', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--body-x-sml	: 'Assistant', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--button		: 'Assistant', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font Weights
+
+$font-weight--extra-light	: 200;
+$font-weight--light			: 300;
+$font-weight--regular		: 400;
+$font-weight--medium		: 500;
+$font-weight--semi-bold		: 600;
+$font-weight--bold			: 700;
+$font-weight--extra-bold	: 800;
+
+// Colors
+
+$pollen-orange				: #e86b05;
+$pollen-black				: #000000;
+$pollen-white				: #FFFFFF;
+$pollen-dark-grey			: #22292d;
+$pollen-medium-grey			: #575756;
+$pollen-light-grey			: #919191;
+$pollen-x-light-grey		: #afafac;
+$pollen-xx-light-grey		: #dddddd;
+
+// Text
+
+$base__font-size			: 16px;
+$base__line					: 24px;
+
+// Path to Assets
+
+$path--rel					: "../media";
+
+
+// Section Padding
+
+$section-padding__mobile	: 8vw 4vw;
+$section-padding__desktop	: 1vw 2vw;

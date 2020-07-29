@@ -1,0 +1,64 @@
+.governance-and-statutory {
+    padding: 4vw;
+    &__logo {
+        text-align: right;
+        max-width: em(60px);
+    }
+    &__image {
+        display: none;
+        background: $pollen-light-grey;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .governance-and-statutory {
+        &__logo {
+            max-width: em(80px);
+            text-align: right;
+            width: 5%;
+            margin: 0 7.5%;
+            float: left;
+        }
+        &__body {
+            width: 70%;
+            float: left;
+            margin-top: em(48px);
+        }
+        &__pages {
+            display: block;
+        }
+    }
+
+    @supports (display: grid) {
+
+        .governance-and-statutory {
+            @include grid-layout(em(100px) auto auto em(100px) auto);
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__body {
+                grid-column: 4 / 12;
+                grid-row: 2 / 4;
+                width: auto;
+                margin: 0;
+            }
+            &__pages {
+                grid-column: 3 / 11;
+                grid-row: 5 / 6;
+                width: auto;
+                margin: 0;
+            }
+        }
+
+    }
+
+}

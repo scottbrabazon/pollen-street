@@ -1,0 +1,105 @@
+.login {
+    padding: $section-padding__mobile;
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__credit {
+        img {
+            margin-bottom: em(20px);
+            max-width: em(300px);
+        }
+    }
+    .secondary-button {
+        margin-left: auto;
+    }
+}
+
+.form {
+    margin-bottom: em(50px);
+    p {
+        display: inline-block;
+        width: 20%;
+    }
+    &__field {
+        width: 100%;
+        border-width: 1px;
+        padding: em(5px);
+        color: $pollen-medium-grey;
+        font-family: $font-family--body;
+        font-weight: $font-weight--light;
+        font-size: em(16px);
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        color: $pollen-medium-grey;
+        font-family: $font-family--body;
+        font-weight: $font-weight--light;
+        font-size: em(16px);
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .login {
+        padding: $section-padding__desktop;
+        &__logo {
+            width: 5%;
+            margin: 0 7.5%;
+            float: left;
+        }
+        &__intro {
+            width: 70%;
+            margin-top: em(48px);
+            margin-left: 20%;
+        }
+        &__private-equity {
+            width: 30%;
+            float: left;
+            margin-top: em(48px);
+            margin-left: 20%;
+        }
+        &__credit {
+            width: 30%;
+            float: right;
+            margin-top: em(48px);
+            margin-bottom: em(100px);
+            margin-right: 10%;
+        }
+    }
+
+    @supports (display: grid) {
+
+        .login {
+            @include grid-layout(em(100px) auto auto em(100px));
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__intro {
+                grid-column: 4 / 12;
+                grid-row: 2 / 3;
+                width: auto;
+                margin: 0;
+            }
+            &__private-equity {
+                padding-right: 2vw;
+                grid-column: 4 / 8;
+                grid-row: 3 / 4;
+                width: auto;
+                margin: 0;
+            }
+            &__credit {
+                padding-left: 2vw;
+                grid-column: 8 / 12;
+                grid-row: 3 / 4;
+                width: auto;
+                margin: 0;
+            }
+        }
+    }
+}

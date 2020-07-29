@@ -1,0 +1,157 @@
+.contact {
+    padding: $section-padding__mobile;
+    width: 100%;
+}
+
+.contact-a {
+    &__logo {
+        max-width: em(60px);
+    }
+    &__map iframe {
+        width: 100%;
+        height: em(300px);
+    }
+    &__map {
+        width: 100%;
+    }
+    &__contact h2 {
+        margin-bottom: 0;
+    }
+}
+
+.contact-b {
+    &__logo {
+        text-align: right;
+        max-width: em(60px);
+    }
+    &__map iframe {
+        width: 100%;
+        height: em(300px);
+    }
+    &__map {
+        width: 100%;
+    }
+    &__popsicle {
+        padding: em(20px) 0;
+        h2 {
+            color: $pollen-orange;
+            font-size: 4.2vw;
+        }
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .contact-a {
+        &__logo {
+
+        }
+        &__address {
+            float: left;
+            width: 30%;
+        }
+        &__contact {
+            float: left;
+            width: 100%;
+        }
+        &__map {
+            float: right;
+            clear: right;
+            width: 60%;
+            height: em(250px);
+            iframe {
+               height: 100%;
+               margin-bottom: 0;
+            }
+        }
+    }
+
+    .contact-b {
+        &__logo {
+
+        }
+        &__address {
+            float: left;
+            width: 30%;
+        }
+        &__contact {
+            float: left;
+            width: 100%;
+        }
+        &__map {
+            float: right;
+            width: 60%;
+            height: em(250px);
+            iframe {
+               height: 100%; 
+               margin-bottom: 0;
+            }
+        }
+        &__popsicle {
+            float: left;
+            width: 100%;
+            h2 {
+                color: $pollen-orange;
+                font-size: em(26px);
+            }
+        }
+    }
+
+    @supports (display: grid) {
+
+        .contact {
+            @include grid-layout(em(100px) auto auto auto auto auto auto auto auto em(100px));
+        }
+
+        .contact-a {
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            &__address {
+                width: 100%;
+                grid-column: 2 / 6;
+                grid-row: 3 / 4;
+            }
+            &__contact {
+                width: 100%;
+                grid-column: 2 / 6;
+                grid-row: 4 / 5;
+            }
+            &__map {
+                width: 100%;
+                grid-column: 6 / 13;
+                grid-row: 2 / 5;
+                height: auto;
+            }
+        }
+
+        .contact-b {
+            &__logo {
+                grid-column: 2 / 3;
+                grid-row: 6 / 7;
+            }
+            &__address {
+                width: 100%;
+                grid-column: 2 / 6;
+                grid-row: 7 / 8;
+            }
+            &__contact {
+                width: 100%;
+                grid-column: 2 / 6;
+                grid-row: 8 / 9;
+            }
+            &__map {
+                width: 100%;
+                grid-column: 6 / 13;
+                grid-row: 6 / 9;
+                height: auto;
+            }
+            &__popsicle {
+                grid-column: 2 / 11;
+                grid-row: 5 / 6;
+            }
+        }
+    }
+}

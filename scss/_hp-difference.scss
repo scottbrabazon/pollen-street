@@ -1,0 +1,93 @@
+.hp-difference {
+    padding: $section-padding__mobile;
+    &__logo {
+        text-align: right;
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__image {
+        display: none;
+        overflow: hidden;
+        img {
+            height: 100%;
+        }
+    }
+    &__body--animated-number-growth {
+        display: flex;
+        p {
+            margin-top: 0.5rem;
+        }
+        h2 {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: $font-weight--regular;
+            color: $pollen-orange;
+            font-size: em(72px);
+            margin: 0;
+        }
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+
+    .hp-difference {
+        padding: $section-padding__desktop;
+        &__logo {
+            margin-bottom: 2vh;
+            margin: 0 7.5%;
+            width: 5%;
+            float: left;
+        }
+        &__body {
+            float: left;
+            width: 50%;
+            margin-top: 47px;
+        }
+        &__image {
+            width: 20%;
+            float: right;
+            display: block;
+            overflow: hidden;
+            margin-top: 47px;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__body--animated-number-growth {
+            float: none;
+            h2 {
+                font-size: 5vw;
+                line-height: 3rem;
+            }
+            h2, hr {
+                margin: 2vh 0;
+            }
+        }
+    }
+
+    @supports (display: grid) {
+
+        .hp-difference {
+            @include grid-layout(em(100px) auto em(100px));
+            &__logo {
+                width: auto;
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            &__body {
+                width: auto;
+                grid-column: 4 / 8;
+                grid-row: 2 / 3;
+                margin-top: 0;
+            }
+            &__image {
+                width: auto;
+                grid-column: 10 / 13;
+                grid-row: 1 / 4;
+                margin-top: 0;
+            }
+        }
+    }
+}

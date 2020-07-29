@@ -1,0 +1,70 @@
+.hp-strategy {
+    padding: $section-padding__mobile;
+    &__logo {
+        max-width: em(60px);
+        margin-bottom: em(20px);
+    }
+    &__body {
+        margin-bottom: em(50px);
+    }
+    &__image {
+        img {
+            width: 100%
+        }
+        width: 70%;
+        margin: 0 15%;
+    }
+}
+
+@media screen and (min-width: 771px) {
+
+    .hp-strategy {
+        padding: $section-padding__desktop;
+        &__logo {
+            margin: 0 7.5%;
+            width: 5%;
+            float: left;
+        }
+        &__body {
+            margin-top: 47px;
+            width: 50%;
+            float: right;
+            margin-bottom: 0;
+        }
+        &__image {
+            width: 20%;
+            margin: 0;
+            margin-top: 47px;
+            float: left;
+            img {
+                width: 80%;
+                margin: em(10px) 10%;
+            }
+        }
+    }
+
+    @supports (display: grid) {
+
+        .hp-strategy {
+            @include grid-layout(em(70px) auto em(50px));
+            &__logo {
+                width: auto;
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            &__body {
+                width: auto;
+                grid-column: 8 / 12;
+                grid-row: 2 / 3;
+                margin-top: 0;
+            }
+            &__image {
+                width: auto;
+                grid-column: 3 / 8;
+                grid-row: 2 / 3;
+                padding-right: 5vw;
+                margin-top: 0;
+            }
+        }
+    }
+}
